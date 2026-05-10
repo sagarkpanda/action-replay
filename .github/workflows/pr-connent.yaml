@@ -1,14 +1,25 @@
+name: PR Comment Test
+
 on:
   pull_request:
-    types: [opened]
+    types:
+      - opened
 
 jobs:
   comment:
     runs-on: ubuntu-latest
 
+    permissions:
+      pull-requests: write
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
-      - run: |
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Comment on PR
+        run: |
           gh pr comment ${{ github.event.pull_request.number }} \
             --body "Thanks for the PR!"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

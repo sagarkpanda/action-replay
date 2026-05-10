@@ -1,0 +1,14 @@
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: |
+          gh pr comment ${{ github.event.pull_request.number }} \
+            --body "Thanks for the PR!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

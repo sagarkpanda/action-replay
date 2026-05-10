@@ -1,0 +1,20 @@
+name: Feature Request
+description: Suggest a new feature
+title: "[Feature]: "
+labels:
+  - enhancement
+
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: Describe the feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Solved
+      description: What problem does this solve?

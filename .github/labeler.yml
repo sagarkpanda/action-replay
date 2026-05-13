@@ -1,0 +1,35 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+
+enhancement:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/**/*"
+          - "features/**/*"
+
+bug:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "fixes/**/*"
+
+question:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "docs/questions/**/*"
+
+invalid:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.tmp"
+
+help wanted:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "help/**/*"
+
+github-actions:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**/*"

@@ -33,3 +33,12 @@ github-actions:
   - changed-files:
       - any-glob-to-any-file:
           - ".github/**/*"
+          
+javascript:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"
+          - "**/*.js"
+          - "**/*.mjs"
+          - "**/*.cjs"

@@ -1,3 +1,15 @@
+## [2.0.0](https://github.com/sagarkpanda/action-replay/compare/v1.1.1...v2.0.0) (2026-05-24)
+
+### ⚠ BREAKING CHANGES
+
+* major release test
+* major release demo
+
+### Features
+
+* major release demo ([5a406e1](https://github.com/sagarkpanda/action-replay/commit/5a406e1e9501cf7ad61e95ad273e873ce31b6cd7))
+* major release test ([9f115c3](https://github.com/sagarkpanda/action-replay/commit/9f115c3d351a54049b071ae4232a56ea231914ca))
+
 ## [1.1.1](https://github.com/sagarkpanda/action-replay/compare/v1.1.0...v1.1.1) (2026-05-24)
 
 

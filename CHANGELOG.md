@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/sagarkpanda/action-replay/compare/v1.1.0...v1.1.1) (2026-05-24)
+
+
+### Bug Fixes
+
+* semantic release demo for fix ([ef3a13b](https://github.com/sagarkpanda/action-replay/commit/ef3a13b77ac8e3819df836bc9411c0598c181a5b))
+
 # [1.1.0](https://github.com/sagarkpanda/action-replay/compare/v1.0.0...v1.1.0) (2026-05-13)
 
 

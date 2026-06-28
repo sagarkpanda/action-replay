@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/sagarkpanda/action-replay/compare/v2.1.0...v2.2.0) (2026-06-28)
+
+### Features
+
+* add more fake secrets for scanning ([71356b1](https://github.com/sagarkpanda/action-replay/commit/71356b131fe7bea34379a8096576c0c21a19c6c0))
+
 ## [2.1.0](https://github.com/sagarkpanda/action-replay/compare/v2.0.0...v2.1.0) (2026-06-28)
 
 ### Features

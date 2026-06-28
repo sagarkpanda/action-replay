@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/sagarkpanda/action-replay/compare/v2.0.0...v2.1.0) (2026-06-28)
+
+### Features
+
+* add gitleaks ([9ffd02c](https://github.com/sagarkpanda/action-replay/commit/9ffd02cdeb6afc1da323cff25f8aba3142ccc58f))
+
 ## [2.0.0](https://github.com/sagarkpanda/action-replay/compare/v1.1.1...v2.0.0) (2026-05-24)
 
 ### ⚠ BREAKING CHANGES

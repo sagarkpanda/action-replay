@@ -1,0 +1,25 @@
+name: Check Ubuntu Version
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-ubuntu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show Ubuntu Version
+        run: |
+          echo "=== Ubuntu Version ==="
+          cat /etc/os-release
+
+          echo ""
+          echo "=== Kernel Version ==="
+          uname -r
+
+          echo ""
+          echo "=== Ubuntu Release ==="
+          lsb_release -a
